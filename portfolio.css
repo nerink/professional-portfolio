@@ -41,40 +41,33 @@ section{
     height: 300px;
     position: relative;
 }
-#about-me, #work{
+/* About Me Section*/
+#about-me, #work,#contact-me{
     background-color:#F5F5F5;
 }
 .flexbox-container-about-me{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .flex-about-me-header {
     text-align: right;
     font-size: 22px;
-    border-right:2px solid;
-    border-color:#7eb0de;
     padding: 0px 4px 7px 8px;
     display: inline-block;
     height: 100px;
     width: 109px;
 }
 
-.card-title {
-        background-image:url(./assets/Image/hero-image.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 300px;
-        position: relative;
-        width: 478px;
-}
 .flex-content {
     text-align: left;
     vertical-align: top;
-    padding:12px 50px 23px 126px;
+    padding:12px 50px 23px 35px;
+    border-left:2px solid;
+    border-color:#7eb0de;
     } 
 
+/* Work Section*/
 .flex-work{
     text-align: right;
     font-size: 22px;
@@ -89,25 +82,96 @@ section{
 .portfolio{
         display: flex;
         justify-content: space-evenly;
+        width: 100%;   
+        padding-left: 30px;
+        flex-direction: row;
         flex-wrap: wrap;
-        width: 45%;   
+}
+.card-title {
+    display: flex;
+    flex-direction: row;
+    padding: 130px 566px 149px 224px;
+    margin-bottom: 20px;
+    background-image:url(./assets/Image/hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    
 }
 .card-title1{
     min-height: 25vh;
-    min-width: 25vh;
+    min-width: 45vh;
+    background-image:url("./assets/Image/pexels-alex-kozlov-8526963.jpg");
+    background-position: center;
+    border:4px solid #39364f;
+    margin-right: 45px;
+    margin-left: 104px;
+
+}
+.card-title2{
+    min-height: 25vh;
+    min-width: 45vh;
+    background-image:url("./assets/Image/pexels-alex-kozlov-8526963.jpg");
+    background-position: center;
+    border:4px solid #39364f;
+    margin-right: 100px;
+}
+.card-title3{
+    min-height: 25vh;
+    min-width: 45vh;
+    background-image:url("./assets/Image/pexels-alex-kozlov-8526963.jpg");
+    background-position: center;
+    border:4px solid #39364f;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.card-title4{
+    min-height: 25vh;
+    min-width: 45vh;
     flex-direction: row;
     background-image:url("./assets/Image/pexels-alex-kozlov-8526963.jpg");
     background-position: center;
     border:4px solid #39364f;
+    margin-right: 34px;
+    margin-left: -73px;
+    margin-top: 20px;
 }
-.span{
+
+#surf{
     margin-top: auto;
     width: 100%;
     background-color: #a8adba;
     color: #393b4f;
     padding: 10px 5px;
     margin: 10px;
-    text-align: left;
+}
+
+span{
+    margin-top: auto;
+    width: 100%;
+    background-color: #a8adba;
+    color: #393b4f;
+    padding: 10px 5px;
+    margin: 10px;
+}
+.container-contact-info{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;   
+        padding-left: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+
+.contact-me-header {
+    text-align: right;
+    font-size: 22px;
+    border-right:2px solid;
+    border-color:#7eb0de;
+    padding: 0px 4px 7px 8px;
+    display: inline-block;
+    height: 100px;
+    width: 109px;
 }
 footer div{
     float: right;
